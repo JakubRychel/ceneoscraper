@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% if form.product_id.errors %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {% for error in form.product_id.errors %}
+                <p>{{error}}</p>
+            {% endfor %}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
+    <form method="POST" action="{{ url_for('extract') }}">
+        {{ form.csrf_token }}
+        {{ form.product_id.label }} {{ form.product_id(size=20) }}
+        {{ form.submit(class_="btn btn-success") }}
+    </form>
+{% endblock %}

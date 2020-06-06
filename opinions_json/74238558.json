@@ -1,0 +1,54 @@
+[
+    {
+        "author": "Maria",
+        "recommendation": "Polecam",
+        "stars": 5.0,
+        "content": "Zestaw wypoczynkowy-REWELACJA!!!! Super jakość, Za te pieniądze super. Podobne zestawy w salonach pod Warszawą kosztują 30 000zł!!!!!!",
+        "cons": null,
+        "pros": null,
+        "useful": 1,
+        "useless": 0,
+        "opinion_date": "2019-10-25 12:10:59",
+        "purchase_date": null,
+        "opinion_id": 11199131
+    },
+    {
+        "author": "Janina",
+        "recommendation": "Polecam",
+        "stars": 5.0,
+        "content": "Porządnie wykonany zestaw wypoczynkowy. Skóra naprawdę gruba, gładka. Siedziska po 6 miesiącach jak nowe",
+        "cons": null,
+        "pros": null,
+        "useful": 1,
+        "useless": 0,
+        "opinion_date": "2019-05-29 13:47:13",
+        "purchase_date": null,
+        "opinion_id": 10589838
+    },
+    {
+        "author": "Tamara",
+        "recommendation": "Polecam",
+        "stars": 5.0,
+        "content": "Bardzo elegancki, dostojny komplet. W salonie prezentuje się po królewsku.",
+        "cons": null,
+        "pros": null,
+        "useful": 0,
+        "useless": 0,
+        "opinion_date": "2020-02-11 06:30:05",
+        "purchase_date": null,
+        "opinion_id": 11722487
+    },
+    {
+        "author": "Janusz",
+        "recommendation": "Polecam",
+        "stars": 5.0,
+        "content": "Super wykonany komplet. Świetna prezencja. Wygodna miękka skóra.",
+        "cons": null,
+        "pros": null,
+        "useful": 0,
+        "useless": 0,
+        "opinion_date": "2020-02-27 13:46:31",
+        "purchase_date": null,
+        "opinion_id": 11815287
+    }
+]

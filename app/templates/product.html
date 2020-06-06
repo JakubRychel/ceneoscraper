@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+    {% for table in tables %}
+        {{table|safe}}
+    {% endfor %}
+{% endblock %}
+{% block scripts %}
+    <script>
+        $(document).ready( function () {
+            $('#opinions').DataTable();
+        } );
+    </script>
+{% endblock %}
+
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
